@@ -1,16 +1,96 @@
-# React + Vite
+🛒 Shopping Cart Application (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 About the Project
 
-Currently, two official plugins are available:
+This is a Shopping Cart web application developed using React.js and Vite.
+The project demonstrates how a real-world e-commerce cart works by allowing users to add products to a cart, update quantities, remove items, and view the total price dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main goal of this project is to practice React fundamentals, including component-based architecture, state management, props, and handling user interactions.
 
-## React Compiler
+Project Live Link : https://shopping-cart-app-pink.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Live Features
 
-## Expanding the ESLint configuration
+Display list of products
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add products to the shopping cart
+
+Increase and decrease product quantity
+
+Remove products from the cart
+
+Automatically update total items and total price
+
+Fast and smooth UI updates without page reload
+
+⚙️ How It Works
+
+Products are rendered using React components
+
+Clicking Add to Cart updates the cart state
+
+Quantity buttons modify the product count in real time
+
+The cart summary recalculates total price instantly
+
+All updates are handled using React state
+
+🧠 Concepts Used
+
+React Functional Components
+
+useState Hook
+
+Props for data sharing
+
+Event handling
+
+Conditional rendering
+
+JSX
+
+ES6+ JavaScript
+
+control
+
+🛠️ Built With
+
+React.js – Frontend library
+
+Vite – Development and build tool
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS3
+
+ESLint – Code quality
+
+Git & GitHub – Version control
+
+📂 Project Structure
+
+shopping-cart/
+│── public/
+│── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│── index.html
+│── package.json
+│── vite.config.js
+│── eslint.config.js
+
+Install dependencies:
+bash
+npm install
+
+Run the project:
+bash
+npm run dev
+
+Open in Browser:
+http://localhost:5173
+
+
